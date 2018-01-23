@@ -121,6 +121,11 @@ public class DataProviderPageable implements Pageable {
 	}
 
 	@Override
+	public boolean isPaged() {
+		return false; // vaadin data provider does not page directly
+	}
+
+	@Override
 	public int getPageNumber() {
 		return 0; // not needed for our purposes
 	}
