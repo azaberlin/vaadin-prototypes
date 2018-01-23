@@ -1,0 +1,7 @@
+archive
+**/target
+.project
+.classpath
+.settings
+.externalToolBuilders
+styles.css
